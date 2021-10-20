@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SURAJ QUIZ</title>
+  <img src="https://images.indianexpress.com/2017/04/brain-games_thinkstock_759.jpg">
+  
+<style>
+body {
+background-color: lightblue;
+font-family: Helvetica;
+}
+
+
+
+label {
+display: block;
+}
+
+input {
+width: 30px;
+margin-left: 20px;
+}
+
+h2 {
+clear: both;
+padding-top: 20px;
+}
+
+button {
+width: 100px;
+margin-top: 20px;
+}
+
+</style>
+
+
+</head>
+<body>
+<div id="main">
+<div id="header">
+<h1>SURAJ QUIZ</h1>
+</div>
+<form id="form1">
+
+<h2>1.From Indian side which human robot goes to moon?<a href="https://www.google.com/search?q=From+Indian+side+which+human+robot+goes+to+moon&oq=From+Indian+side+which+human+robot+goes+to+moon&aqs=chrome..69i57.1490j0j7&sourceid=chrome&ie=UTF-8">EXPLANATION</a></h2>
+<label for="var_string"><input type="radio" name="variable" value="0"a="1" id="var_string" />a.vayumitra</label>
+<label for="var_join"><input type="radio" name="variable" value="0" a="0"id="var_join" />b.chandiramitra</label>
+<label for="var_info"><input type="radio" name="variable" value="25" a="0"id="var_info" />c.vyommitra</label>
+<label for="var_condition"><input type="radio" name="variable" value="0"a="0" id="var_condition"/>d.chandirapathi</label>
+
+<h2>2.During republic day the navy army commanded by which tamilnadu lady at Delhi? <a href="https://www.google.com/search?ei=HysRX9ONGMXfz7sP4I6G4AQ&q=During+republic+day+the+navy+army+commanded+by+which+tamilnadu+lady+at+Delhi%3F+&oq=During+republic+day+the+navy+army+commanded+by+which+tamilnadu+lady+at+Delhi%3F+&gs_lcp=CgZwc3ktYWIQAzoICAAQ6gIQjwFQuvgDWLr4A2CIgARoAXAAeACAAYIBiAGCAZIBAzAuMZgBAKABAaABAqoBB2d3cy13aXqwAQo&sclient=psy-ab&ved=0ahUKEwiTmf_Bu9PqAhXF73MBHWCHAUwQ4dUDCAw&uact=5">EXPLANATION</a></h2>
+<label for="sub_string"><input type="radio" name="sub" value="25"b="1" id="sub_string"/>a.Assistant commandand,Devika</label>
+<label for="sub_join"><input type="radio" name="sub" value="0"b="0" id="sub_join"/>b.Assistant commandand,Rekha</label>
+<label for="sub_info"><input type="radio" name="sub" value="0" b="0"id="sub_info" />c.Assistant commandand,Prisilla</label>
+<label for="sub_condition"><input type="radio" name="sub" value="0"b="0" id="sub_condition" />d.Assistant commandand,Renuka</label>
+
+<h2>3.In 2020,the applied NEET applications only from Tamilnadu is compared to 2019 is?<a href="https://timesofindia.indiatimes.com/home/education/news/neet-2020-number-of-applicants-in-tamil-nadu-dips-by-17/articleshow/73538460.cms">EXPLANATION</a></h2>
+<label for="cat_string"><input type="radio" name="con" value="0"c="0" id="cat_string" />a.20% Increase</label>
+<label for="cat_join"><input type="radio" name="con" value="25"c="1" id="cat_join" />b.17% Decrease</label>
+<label for="cat_info"><input type="radio" name="con" value="0" c="0"id="cat_info" />c.13% Increase</label>
+<label for="cat_condition"><input type="radio" name="con" value="0" c="0"id="cat_condition" />d.10% Decrease</label>
+
+<h2>4.In Indian Railways recently which factory has connected to it?<a href="https://economictimes.indiatimes.com/industry/transportation/railways/rly-commissions-govts-first-waste-to-energy-plant-to-turn-e-waste-plastic-into-light-diesel-oil/articleshow/73547973.cms?from=mdr">EXPLANATION</a></h2>
+<label for="if_string"><input type="radio" name="ifstate" value="0"d="0" id="if_string" />a.Water recycle factory</label>
+<label for="if_join"><input type="radio" name="ifstate" value="0" d="0"id="if_join" />b.Steel plant factory</label>
+<label for="if_info"><input type="radio" name="ifstate" value="0" d="0"id="if_info" />c.Electric wire production factory</label>
+<label for="if_condition"><input type="radio" name="ifstate"  value="25"d="1" id="if_condition" />d.Wastage Biofuel factory</label>
+ <h2>5.Which country had a highest new borns in January 1,2020?<a href="www.indiatoday.in/india/story/highest-number-of-babies-born-new-years-day-january-1-india-unicef-data-1633223-2020-01-02">
+   EXPLANATION</a></h2>
+<label for="dog_string"><input type="radio" name="com" value="25"e="0" id="dog_string" />a.India(67,385)</label>
+<label for="dog_join"><input type="radio" name="com" value="0"e="0" id="dog_join" />b.China(78,795)</label>
+<label for="dog_info"><input type="radio" name="com" value="0" e="0"id="dog_info" />c.America(54,794)</label>
+<label for="dog_condition"><input type="radio" name="com"  value="0"e="1" id="dog_condition" />d.Indonesia(38,881)</label>
+  <h2>6.In which planet NASA planned to produce oxygen through robot?<a href="https://mars.nasa.gov/mars2020/spacecraft/instruments/moxie/">EXPLANATION</a></h2>
+<label for="dog1_string"><input type="radio" name="com1" value="0" f="0"id="dog1_string" />a.Saturn</label>
+<label for="dog1_join"><input type="radio" name="com1" value="0" f="0"id="dog1_join" />b.Venus</label>
+<label for="dog1_info"><input type="radio" name="com1" value="25" f="1"id="dog1_info" />c.Mars</label>
+<label for="dog1_condition"><input type="radio" name="com1"  value="0"f="0" id="dog1_condition" />d.Jupiter</label>
+  <h2>7.In India where is (IRRI) International Rice Research Institute is located?<a href="https://www.google.com/search?ei=QTARX8-1HbGF4-EPnYyrwAc&q=In+India+where+is+%28IRRI%29+International+Rice+Research+Institute+is+located%3F&oq=In+India+where+is+%28IRRI%29+International+Rice+Research+Institute+is+located%3F&gs_lcp=CgZwc3ktYWIQAzoICAAQ6gIQjwFQgBVYgBVgxRxoAXAAeACAAX-IAX-SAQMwLjGYAQCgAQGgAQKqAQdnd3Mtd2l6sAEK&sclient=psy-ab&ved=0ahUKEwiP2sy0wNPqAhWxwjgGHR3GCngQ4dUDCAw&uact=5">EXPALNATION</a></h2>
+<label for="sub1_string"><input type="radio" name="sub1" value="25" g="1"id="sub1_string"/>a.Varanasi</label>
+<label for="sub1_join"><input type="radio" name="sub1" value="0" g="0"id="sub1_join"/>b.Bengaluru</label>
+<label for="sub1_info"><input type="radio" name="sub1" value="0" g="0"id="sub1_info" />c.Coimbatore</label>
+<label for="sub1_condition"><input type="radio" name="sub1" value="0"g="0" id="sub1_condition" />d.Jaipur</label>
+  <h2>8.At present who is the chief army captain of India?<a href="https://www.google.com/search?ei=gDARX6eUOpKd4-EP0u2quAE&q=At+present+who+is+the+chief+army+captain+of+India%3F&oq=At+present+who+is+the+chief+army+captain+of+India%3F&gs_lcp=CgZwc3ktYWIQAzIICCEQFhAdEB46CAgAEOoCEI8BULzDA1i8wwNghMcDaAFwAHgAgAGOAYgBjgGSAQMwLjGYAQCgAQGgAQKqAQdnd3Mtd2l6sAEK&sclient=psy-ab&ved=0ahUKEwin1O7SwNPqAhWSzjgGHdK2ChcQ4dUDCAw&uact=5">EXPLANATION</a></h2>
+<label for="cat1_string"><input type="radio" name="con1" value="0"h="0" id="cat1_string" />a.Bipin rawat</label>
+<label for="cat1_join"><input type="radio" name="con1" value="0"h="1" id="cat1_join" />b.R.R.Pandey</label>
+<label for="cat1_info"><input type="radio" name="con1" value="25" h="0"id="cat1_info" />c.Manoj mukund </label>
+<label for="cat1_condition"><input type="radio" name="con1" value="0"h="0" id="cat1_condition" />d.Dinesh jonsthan</label>
+  <h2>9.In chennai airport C.T.S scanner scans how many luggages per hour?<a href="https://www.google.com/search?ei=0TARX_SZDrWO4-EPkquh-Ag&q=In+chennai+airport+C.T.S+scanner+scans+how+many+luggages+per+hour%3F&oq=In+chennai+airport+C.T.S+scanner+scans+how+many+luggages+per+hour%3F&gs_lcp=CgZwc3ktYWIQAzoICAAQ6gIQjwFQ5B5Y5B5gkihoAXAAeACAAZABiAGQAZIBAzAuMZgBAKABAaABAqoBB2d3cy13aXqwAQo&sclient=psy-ab&ved=0ahUKEwi0xpL5wNPqAhU1xzgGHZJVCI8Q4dUDCAw&uact=5">EXPLANATION</a></h2>
+<label for="if1_string"><input type="radio" name="ifstate1" value="0" j="0"id="if1_string" />a.100</label>
+<label for="if1_join"><input type="radio" name="ifstate1" value="0" j="0"id="if1_join" />b.850</label>
+<label for="if1_info"><input type="radio" name="ifstate1" value="0" j="0"id="if1_info" />c.1000</label>
+<label for="if1_condition"><input type="radio" name="ifstate1"  value="25"j="1" id="if1_condition" />d.1800</label>
+  <h2>10.Which country spends more time in social media?<a href="https://www.weforum.org/agenda/2020/06/social-media-coutries-chart-online-digital-survey/"> EXPLANATION</a> </h2>
+<label for="cat2_string"><input type="radio" name="con2" value="0" k="0"id="cat2_string" />a.India,3hours 12minutes/day</label>
+<label for="cat2_join"><input type="radio" name="con2" value="25" k="1"id="cat2_join" />b.Phillipines,4 hours 11minutes/day</label>
+<label for="cat2_info"><input type="radio" name="con2" value="0" k="0"id="cat2_info" />c.China,5hours 21minutes/day</label>
+<label for="cat2_condition"><input type="radio" name="con2" value="0"k="0" id="cat2_condition" />d.America,3hours 41minutes/day</label>
+
+ 
+ 
+  
+  
+  
+  
+
+<button type="submit" value="Submit">Submit</button>
+
+</form>
+    
+  <p><b>Your grade is:    </b><span id="grade">__</span></p>
+<p id="grade2"></p>
+
+ 
+
+<canvas id="canvas" width="200" height="200"
+style="background-color:#39">
+
+</canvas>
+
+
+<script>
+document.getElementById("form1").onsubmit=function() {
+       variable = parseInt(document.querySelector('input[name = "variable"]:checked').value);
+	   sub = parseInt(document.querySelector('input[name = "sub"]:checked').value);
+	   con = parseInt(document.querySelector('input[name = "con"]:checked').value);
+	   ifstate = parseInt(document.querySelector('input[name = "ifstate"]:checked').value);
+      
+       com = parseInt(document.querySelector('input[name = "com"]:checked').value);
+   com1 = parseInt(document.querySelector('input[name = "com1"]:checked').value);
+  sub1 = parseInt(document.querySelector('input[name = "sub1"]:checked').value);
+  con1 = parseInt(document.querySelector('input[name = "con1"]:checked').value);
+  ifstate1 = parseInt(document.querySelector('input[name = "ifstate1"]:checked').value);
+  con2 = parseInt(document.querySelector('input[name = "con2"]:checked').value);
+   foam = parseInt(document.querySelector('input[name = "ifstate1"]:checked').j); 
+  bed = parseInt(document.querySelector('input[name = "con2"]:checked').k);
+  
+      
+	   
+	   
+	   result = variable + sub + con + ifstate + com + com1 + sub1 + con1 + ifstate1 + con2;
+  
+	   count=foam+bed;
+	document.getElementById("grade").innerHTML = result;
+    //document.getElementById("mark").innerHTML = count;
+ grading = [
+	   {score:0,feedback:"<b>I don't think you studied</b> correct = 0"},
+	   {score:25,feedback:"<b>You need to spend more time</b> correct = 1" },//image: "poor.jpg"},
+	   {score:50,feedback:"<b>I think you could do better</b> correct = 2"},//image: "avg.jpg"},
+	   {score:75,feedback:"<b>So close</b> correct = 3" },//image: "above.jpg"},
+	   {score:100,feedback:"<b>Good</b> correct = 4"},// image: "excellent.jpg"},
+       {score:125,feedback:"<b>Excellent</b> correct = 5"},//image:"good.jpg"},
+    {score:150,feedback:"<b>Very excellent</b> correct = 6"},//image:"good.jpg"},
+    {score:175,feedback:"<b>Marvellous</b> correct = 7"},//image:"good.jpg"},
+    {score:200,feedback:"<b>Tremendous</b> correct = 8"},//image:"good.jpg"},
+    {score:225,feedback:"<b>Gorgious</b> correct = 9"},//image:"good.jpg"},
+    {score:250,feedback:"<b>Intelligent person in world</b> correct = 10"}//image:"good.jpg"}
+      ];
+
+	//"<br /><img src='" + grading[i].image + " width='300'  />";  
+for(i=0; i<grading.length; i++) {
+    if(result == grading[i].score) {
+    result2 = grading[i].feedback +"<br/>Answers are <b>1.c,2.a,3.b,4.d,5.a,6.c,7.a,8.c,9.d,10.b</b>"//+"<br /><img url='"https:c0.wallpaperflare.com/preview/352/355/664/question-mark-knowledge-question-sign.jpg +" width='300'/>;
+      
+	  }
+  
+	  }
+  
+
+
+document.getElementById("grade2").innerHTML = result2; 
+  /*correct=[
+    {mark=0,feedback:"0 correct"},
+    {mark=1,feedback:"1 correct"},
+    {mark=2,feedback:"2 correct"},
+    {mark=3,feedback:"3 correct"},
+    {mark=4,feedback:"4 correct"},
+    {mark=5,feedback:"5 correct"},
+    {mark=6,feedback:"6 correct"},
+    {mark=7,feedback:"7 correct"},
+    {mark=8,feedback:"8 correct"},
+    {mark=9,feedback:"9 correct"},
+    {mark=10,feedback:"10 correct"}
+    ];
+for(w=0;w<correct.length;w++){
+  if(count == correct[w].mark){
+    mark2 = correct[w].feedback;
+  }
+  }*/
+return false; // required to not refresh the page; just leave this here
+} 
+  //this ends the submit function
+  var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
+var radius = canvas.height / 2;
+ctx.translate(radius, radius);
+radius = radius * 0.90
+setInterval(drawClock, 1000);
+
+function drawClock() {
+  drawFace(ctx, radius);
+  drawNumbers(ctx, radius);
+  drawTime(ctx, radius);
+}
+
+function drawFace(ctx, radius) {
+  var grad;
+  ctx.beginPath();
+  ctx.arc(0, 0, radius, 0, 2*Math.PI);
+  ctx.fillStyle = 'white';
+  ctx.fill();
+  grad = ctx.createRadialGradient(0,0,radius*0.95, 0,0,radius*1.05);
+  grad.addColorStop(0, '#333');
+  grad.addColorStop(0.5, 'white');
+  grad.addColorStop(1, '#333');
+  ctx.strokeStyle = grad;
+  ctx.lineWidth = radius*0.1;
+  ctx.stroke();
+  ctx.beginPath();
+  ctx.arc(0, 0, radius*0.1, 0, 2*Math.PI);
+  ctx.fillStyle = '#333';
+  ctx.fill();
+}
+
+function drawNumbers(ctx, radius) {
+  var ang;
+  var num;
+  ctx.font = radius*0.15 + "px arial";
+  ctx.textBaseline="middle";
+  ctx.textAlign="center";
+  for(num = 1; num < 13; num++){
+    ang = num * Math.PI / 6;
+    ctx.rotate(ang);
+    ctx.translate(0, -radius*0.85);
+    ctx.rotate(-ang);
+    ctx.fillText(num.toString(), 0, 0);
+    ctx.rotate(ang);
+    ctx.translate(0, radius*0.85);
+    ctx.rotate(-ang);
+  }
+  ctx.font="20px Arial";
+  ctx.fillText("suraj",0,40);
+}
+
+function drawTime(ctx, radius){
+    var now = new Date();
+    var hour = now.getHours();
+    var minute = now.getMinutes();
+    var second = now.getSeconds();
+    //hour
+    hour=hour%12;
+    hour=(hour*Math.PI/6)+
+    (minute*Math.PI/(6*60))+
+    (second*Math.PI/(360*60));
+    drawHand(ctx, hour, radius*0.5, radius*0.07);
+    //minute
+    minute=(minute*Math.PI/30)+(second*Math.PI/(30*60));
+    drawHand(ctx, minute, radius*0.8, radius*0.07);
+    // second
+    second=(second*Math.PI/30);
+    drawHand(ctx, second, radius*0.9, radius*0.02);
+}
+
+function drawHand(ctx, pos, length, width) {
+    ctx.beginPath();
+    ctx.lineWidth = width;
+    ctx.lineCap = "round";
+    ctx.moveTo(0,0);
+    ctx.rotate(pos);
+    ctx.lineTo(0, -length);
+    ctx.stroke();
+    ctx.rotate(-pos);
+}
+
+</script>
+  
+
+
+</div>
+</body>
+</html>
+
+
